@@ -1,0 +1,211 @@
+/* Estilo para o cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffe2bd;
+  color: #fff;
+}
+
+header .icon-header {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-left: -10px;
+  color: #000000;
+}
+
+/* Estilo para o primeiro menu */
+#menu1 {
+  margin-left: auto;
+}
+
+nav#nav1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav#nav1 ul li {
+  margin-right: 10px;
+}
+
+nav#nav1 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav#nav1 ul li a:hover {
+  color: #ffffff;
+}
+
+/* Estilo para o segundo menu */
+#menu2 {
+  margin-left: 0px;
+  flex-grow: 1;
+}
+
+nav#nav2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav#nav2 ul li {
+  margin-right: 10px;
+}
+
+nav#nav2 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav#nav2 ul li a:hover {
+  color: #ffffff;
+}
+
+/* Estilo para a primeira seção */
+#first-section {
+  background-color: #ad92e7;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#first-section img {
+  width: 70px;
+  margin-left: -23px;
+}
+
+#first-section h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#first-section p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+#first-section a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#first-section a:hover {
+  color: #000000;
+}
+
+/* Estilo para a segunda seção */
+#second-section {
+  background-color: #ad92e7a9;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#second-section h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#second-section p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+#second-section a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#second-section a:hover {
+  color: #000000;
+}
+
+/* Estilo para a terceira seção */
+#third-section {
+  background-color: #ad92e75a;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#third-section h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#third-section p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+#third-section a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#third-section a:hover {
+  color: #000000;
+}
+
+/* Estilo para o rodapé */
+footer {
+  padding: 5px;
+  text-align: center;
+  background-color: #ffe2bd;
+  color: #fff;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+footer nav ul li {
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-content {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000000;
+}
