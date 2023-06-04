@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 /* Estilo para o cabeçalho */
 header {
   display: flex;
@@ -9,75 +15,96 @@ header {
 }
 
 header .icon-header {
-  width: 100px;
+  width: 50px;
+}
+
+header figure {
+  margin: 5px;
+  padding: 5px;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 15px;
   margin-left: -10px;
+  margin-bottom: 10px;
   color: #000000;
 }
 
 /* Estilo para o primeiro menu */
 #menu1 {
-  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+  height: 20px;
+  padding: auto;
 }
 
 nav#nav1 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style-type: none;
+  padding: 0px;
+  margin: -10px;
   display: flex;
   align-items: center;
 }
 
 nav#nav1 ul li {
-  margin-right: 10px;
+  margin-right: 0px;
+  display: inline;
 }
 
 nav#nav1 ul li a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
+  padding: 10px 29px;
 }
 
 nav#nav1 ul li a:hover {
   color: #ffffff;
+  background-color: #e2c8a6;
+  padding: 44px 29px;
 }
 
 /* Estilo para o segundo menu */
 #menu2 {
-  margin-left: 0px;
+  background-color: #e2c8a6;
+  margin-left: auto;
   flex-grow: 1;
+  height: 20px;
+  padding: auto;
 }
 
 nav#nav2 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style-type: none;
+  padding: 0px;
+  margin: -10px;
   display: flex;
   align-items: center;
 }
 
 nav#nav2 ul li {
-  margin-right: 10px;
+  margin-left: 0px;
+  display: inline;
 }
 
 nav#nav2 ul li a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
+  padding: 10px 30px;
+
 }
 
 nav#nav2 ul li a:hover {
   color: #ffffff;
+  background-color: #6d604f96;
+  padding: 1px 30px;
 }
 
 /* Estilo para a primeira seção */
 #first-section {
-  background-color: #ad92e7;
+  background-color: #7f44ff;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -113,7 +140,7 @@ nav#nav2 ul li a:hover {
 
 /* Estilo para a segunda seção */
 #second-section {
-  background-color: #ad92e7a9;
+  background-color: #7f44ffdf;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -144,7 +171,7 @@ nav#nav2 ul li a:hover {
 
 /* Estilo para a terceira seção */
 #third-section {
-  background-color: #ad92e75a;
+  background-color: #7f44ffbf;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -173,12 +200,44 @@ nav#nav2 ul li a:hover {
   color: #000000;
 }
 
+/* Estilo para a quarta seção */
+#fourth-section {
+  background-color: #7f44ff87;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#fourth-section h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#fourth-section p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+#fourth-section a {
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#fourth-section a:hover {
+  color: #000000;
+}
+
 /* Estilo para o rodapé */
 footer {
-  padding: 5px;
+  padding: 0px;
   text-align: center;
   background-color: #ffe2bd;
   color: #fff;
+  height: 60px;
 }
 
 footer nav ul {
@@ -187,6 +246,7 @@ footer nav ul {
   align-items: center;
   margin-bottom: 10px;
   list-style-type: none;
+  background-color: #e2c8a6;
 }
 
 footer nav ul li {
@@ -202,6 +262,7 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
   color: #ffffff;
+  background-color: #6d604f96;
 }
 
 .footer-content {
