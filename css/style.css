@@ -1,13 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
   box-sizing: border-box;
 }
-/* Estilo para o cabeçalho */
+
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
   background-color: #ffe2bd;
@@ -18,36 +16,32 @@ header .icon-header {
   width: 50px;
 }
 
-header figure {
+#icone {
   margin: 5px;
   padding: 5px;
 }
 
 header h1 {
   font-size: 15px;
-  margin-left: -10px;
   margin-bottom: 10px;
   color: #000000;
 }
 
-/* Estilo para o primeiro menu */
-#menu1 {
-  margin-right: auto;
-  flex-grow: 1;
-  height: 20px;
-  padding: auto;
+nav#nav1 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 nav#nav1 ul {
   list-style-type: none;
   padding: 0px;
-  margin: -10px;
+  margin: 0px;
   display: flex;
   align-items: center;
 }
 
 nav#nav1 ul li {
-  margin-right: 0px;
   display: inline;
 }
 
@@ -62,28 +56,24 @@ nav#nav1 ul li a {
 nav#nav1 ul li a:hover {
   color: #ffffff;
   background-color: #e2c8a6;
-  padding: 44px 29px;
+  padding: 20px 29px;
 }
 
-/* Estilo para o segundo menu */
 #menu2 {
+  display: flex;
+  align-items: center;
   background-color: #e2c8a6;
-  margin-left: auto;
-  flex-grow: 1;
-  height: 20px;
-  padding: auto;
 }
 
 nav#nav2 ul {
   list-style-type: none;
   padding: 0px;
-  margin: -10px;
+  margin: 0px;
   display: flex;
   align-items: center;
 }
 
 nav#nav2 ul li {
-  margin-left: 0px;
   display: inline;
 }
 
@@ -93,7 +83,6 @@ nav#nav2 ul li a {
   font-weight: bold;
   transition: color 0.2s ease;
   padding: 10px 30px;
-
 }
 
 nav#nav2 ul li a:hover {
