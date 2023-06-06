@@ -1,11 +1,17 @@
+html    {
+    scroll-padding: 10rem;
+    scroll-behavior: smooth;
+}
+
 body  {
     font-family: 'DM Sans', sans-serif;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 section {
-    padding-inline: 10rem;
+    padding-inline: 7rem;
     padding-block: 5rem;
+    text-align: justify;
 }
 
 header  {
@@ -73,7 +79,7 @@ a   {
 }
 
 section a   {
-    color: #337ab7;
+    color: #68b7fc;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -81,21 +87,21 @@ section a   {
 
 p   {
     font-size: 16px;
-    color: #000000;
 }
 
 h1  {
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 40px;
     margin-bottom: 10px;
+}
+
+h2  {
+    margin-block: 10px;
 }
 
 footer {
     background-color: #ffe2bd;
     padding-block: 3rem;
-    color: #fff;
     font-size: 14px;
-    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,25 +110,25 @@ footer {
 
 footer nav ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-    list-style-type: none;
-    background-color: var(--dark-brown);
+    list-style: none;
 }
 
-footer nav ul li {
-    margin-right: 10px;
+footer nav ul li    {
+    padding-inline: 10px;
+    border-right: solid 1px black;
+}
+
+footer nav ul li:last-child {
+    border: none;
 }
 
 footer nav ul li a {
-    text-decoration: none;
-    color: #000000;
+    display: flex;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 footer nav ul li a:hover {
     color: #ffffff;
-    background-color: #6d604f96;
 }
