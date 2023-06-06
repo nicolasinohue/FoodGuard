@@ -25,32 +25,6 @@ header div:first-child nav ul li a:hover  {
     transition-duration: 300ms;
 }
 
-header div:last-child nav ul li a:hover  {
-    color: #fff;
-    padding-block: 14.5px;
-    background-color: #beb1a3;
-    transition-duration: 300ms;
-}
-
-header div:last-child nav ul li a{
-    padding-inline: 20px;
-    transition-duration: 300ms;
-}
-
-header div:last-child {
-    background-color: var(--dark-brown);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-inline: 2rem;
-    height: 50px;
-}
-
-header div:last-child nav ul {
-    list-style: none;
-    display: flex;
-}
-
 header h1 {
     font-size: 15px;
     color: #000000;
@@ -59,8 +33,6 @@ header h1 {
 header figure   {
     display: flex;
     align-items: center;
-    margin: 5px;
-    padding: 5px;
 }
 
 header figure h1    {
