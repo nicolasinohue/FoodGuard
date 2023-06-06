@@ -1,0 +1,128 @@
+body  {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+}
+
+section {
+    padding-inline: 10rem;
+    padding-block: 5rem;
+}
+
+header  {
+    background-color: #ffe2bd;
+    position: sticky;
+    top: 0;
+}
+
+header div:first-child nav ul li a:hover  {
+    color: #fff;
+    transition-duration: 300ms;
+}
+
+header div:last-child nav ul li a:hover  {
+    color: #fff;
+    padding-block: 14.5px;
+    background-color: #beb1a3;
+    transition-duration: 300ms;
+}
+
+header div:last-child nav ul li a{
+    padding-inline: 20px;
+    transition-duration: 300ms;
+}
+
+header div:last-child {
+    background-color: var(--dark-brown);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 2rem;
+    height: 50px;
+}
+
+header div:last-child nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header h1 {
+    font-size: 15px;
+    color: #000000;
+}
+
+header figure   {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+header figure h1    {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    font-weight: regular;
+    transition: color 0.2s ease;
+}
+
+a   {
+    text-decoration: none;
+    color: #000000;
+}
+
+section a   {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+p   {
+    font-size: 16px;
+    color: #000000;
+}
+
+h1  {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffe2bd;
+    padding-block: 3rem;
+    color: #fff;
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+    background-color: var(--dark-brown);
+}
+
+footer nav ul li {
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ffffff;
+    background-color: #6d604f96;
+}
