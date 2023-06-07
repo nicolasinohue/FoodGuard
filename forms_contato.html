@@ -35,54 +35,69 @@
         <section id="first-section">
             
             <div>
+                <h1>Contato</h1>
+
                 <form name="forms_login" action="forms_login.html" method="get">
             
                     <fieldset>
-                        <label for="Nickname">Nome de Usuário:</label>
-                        <input type="text" name="Nickname" id="Nickname" maxlength="20" required>
+                        <legend>Dados do usuário </legend>
+                        <label for="Nome">Nome:</label>
+                        <input type="text" name="Nome" id="Nome" maxlength="100" size="50" autofocus required>
                         <br>
                 
                         <label for="Email">E-Mail:</label>
-                        <input type="email" name="Email" id="Email" maxlength="70" required>
-                        <br>
-                        
-                        <label for="Assunto">Assunto:</label>
-                        <input type="text" name="Assunto" id="Assunto" maxlength="40" required>
+                        <input type="email" name="Email" id="Email" maxlength="100" size="50" required>
                         <br>
             
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
+                        <label for="Telefone">Telefone:</label>
+                        <input type="text" name="Telefone" id="Telefone" maxlength="20" size="50" required>
                         <br>
-
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
-                        <br>
-
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
-                        <br>
-
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
-                        <br>
-
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
-                        <br>
-
-                        <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
-                        <br>
-
                     </fieldset>
 
+                    <br>
+
                     <fieldset>
+                        <legend>Dados da empresa </legend>
+                        <label for="Empresa">Empresa:</label>
+                        <input type="text" name="Empresa" id="Empresa" maxlength="100" size="50" required>
+                        <br>
+
+                        <label for="CNPJ">CNPJ:</label>
+                        <input type="text" name="CNPJ" id="CNPJ" maxlength="14" size="50" required>
+                        <br>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Localização </legend>
+                        <label for="Endereco">Endereço:</label>
+                        <input type="text" name="Endereco" id="Endereco" maxlength="100" size="50" required>
+                        <br>
+
+                        <label for="Cidade">Cidade:</label>
+                        <input type="text" name="Cidade" id="Cidade" maxlength="100" size="50" required>
+                        <br>
+
+                        <label for="Estado">Estado:</label>
+                        <input type="text" name="Estado" id="Estado" maxlength="100" size="50" required>
+                        <br>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <label for="Assunto">Assunto:</label>
+                        <input type="text" name="Assunto" id="Assunto" maxlength="100" size="50" required>
+                        <br>
+
                         <label for="Mensagem">Mensagem:</label>
-                        <input type="text" name="Mensagem" id="Mensagem" maxlength="300" required>
+                        <textarea name="Mensagem" id="Mensagem" maxlength="500" required></textarea>
                         <br>
                     </fieldset>
             
                     <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
             
                 </form>
             
