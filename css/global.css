@@ -8,6 +8,38 @@ body  {
     line-height: 1.7;
 }
 
+legend  {
+    margin-inline: 1rem;
+    padding-inline: 10px;
+    font-weight: bold;
+    color: #7066B3
+}
+
+fieldset    {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+}
+
+.Contato    {
+    display: flex;
+    justify-content: center;
+}
+
+form    {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: column;
+}
+
+textarea    {
+    width: max-content;
+}
+
 button {
     border: none;
     outline: none;

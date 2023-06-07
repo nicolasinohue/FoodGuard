@@ -62,6 +62,7 @@
     border: #7066B3 solid 2px;
     border-radius: 5rem;
     transition: 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .button:hover   {
@@ -78,11 +79,29 @@
     border: #ffffff solid 2px;
     border-radius: 5rem;
     transition: 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .button2:hover   {
     color: #ffffff;
     background-color: #7066B3;
+    transition: 200ms ease-in-out;
+}
+
+.button3 {
+    color: #ffffff;
+    background-color: #ff0000;
+    padding-block: 0.5rem;
+    padding-inline: 6rem;
+    border: #ff0000 solid 2px;
+    border-radius: 5rem;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.button3:hover   {
+    color: #ff0000;
+    background-color: #ffffff;
     transition: 200ms ease-in-out;
 }
 

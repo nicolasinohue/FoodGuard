@@ -33,25 +33,25 @@
     </header>
     <main>
 
-        <section id="first-section">
+        <section class="Contato">
             
             <div>
-                <h1>Contato</h1>
+                <h1>Contate-nos</h1>
 
                 <form name="forms_login" action="forms_login.html" method="get">
             
                     <fieldset>
                         <legend>Dados do usuário </legend>
                         <label for="Nome">Nome:</label>
-                        <input type="text" name="Nome" id="Nome" maxlength="100" size="50" autofocus required>
+                        <input placeholder="nome" type="text" name="Nome" id="Nome" maxlength="100" size="50" autofocus required>
                         <br>
                 
                         <label for="Email">E-Mail:</label>
-                        <input type="email" name="Email" id="Email" maxlength="100" size="50" required>
+                        <input placeholder="exemplo@ex.com" type="email" name="Email" id="Email" maxlength="100" size="50" required>
                         <br>
             
                         <label for="Telefone">Telefone:</label>
-                        <input type="text" name="Telefone" id="Telefone" maxlength="20" size="50" required>
+                        <input placeholder="00 00000-0000" type="text" name="Telefone" id="Telefone" maxlength="20" size="50" required>
                         <br>
                     </fieldset>
 
@@ -60,11 +60,11 @@
                     <fieldset>
                         <legend>Dados da empresa </legend>
                         <label for="Empresa">Empresa:</label>
-                        <input type="text" name="Empresa" id="Empresa" maxlength="100" size="50" required>
+                        <input placeholder="empresa" type="text" name="Empresa" id="Empresa" maxlength="100" size="50" required>
                         <br>
 
                         <label for="CNPJ">CNPJ:</label>
-                        <input type="text" name="CNPJ" id="CNPJ" maxlength="14" size="50" required>
+                        <input placeholder="000000000" type="text" name="CNPJ" id="CNPJ" maxlength="14" size="50" required>
                         <br>
                     </fieldset>
 
@@ -73,21 +73,22 @@
                     <fieldset>
                         <legend>Localização </legend>
                         <label for="Endereco">Endereço:</label>
-                        <input type="text" name="Endereco" id="Endereco" maxlength="100" size="50" required>
+                        <input placeholder="R.exemplo 00" type="text" name="Endereco" id="Endereco" maxlength="100" size="50" required>
                         <br>
 
                         <label for="Cidade">Cidade:</label>
-                        <input type="text" name="Cidade" id="Cidade" maxlength="100" size="50" required>
+                        <input placeholder="Cidade" type="text" name="Cidade" id="Cidade" maxlength="100" size="50" required>
                         <br>
 
                         <label for="Estado">Estado:</label>
-                        <input type="text" name="Estado" id="Estado" maxlength="100" size="50" required>
+                        <input placeholder="CD" type="text" name="Estado" id="Estado" maxlength="100" size="50" required>
                         <br>
                     </fieldset>
 
                     <br>
 
                     <fieldset>
+                        <legend>Mensagem</legend>
                         <label for="Assunto">Assunto:</label>
                         <input type="text" name="Assunto" id="Assunto" maxlength="100" size="50" required>
                         <br>
@@ -95,10 +96,10 @@
                         <label for="Mensagem">Mensagem:</label>
                         <textarea name="Mensagem" id="Mensagem" maxlength="500" required></textarea>
                         <br>
-                    </fieldset>
+                    </fieldset><br>
             
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                    <input class="button" type="submit" value="Enviar"><br>
+                    <input class="button3" type="reset" value="Limpar">
             
                 </form>
             
