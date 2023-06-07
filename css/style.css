@@ -5,6 +5,10 @@
   margin-inline: 5rem;
 }
 
+#btn-mobile {
+    display: none;
+}
+
 .pages {
     display: flex;
     align-items: center;
@@ -127,11 +131,6 @@
 
 .first-section__content2 p    {
     margin: 0;
-}
-
-
-.second-section {
-
 }
 
 /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    */
