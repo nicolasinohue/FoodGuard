@@ -1,135 +1,146 @@
-@media (max-width: 1172) and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+@media (max-width: 1172px) and (min-width: 768px) {
+  .linha  {
+    display: none;
+    height: 0px;
+    width: 0px;
+    margin-inline: 0rem;
   }
   
-  /* Estilo para o cabeçalho */
-  header {
+  .pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+  }
+  
+  .pages nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pages nav ul li {
+    padding-inline: 1rem;
+  }
+  
+  .low-header nav ul li a:hover  {
+    color: #fff;
+    padding-block: 14.5px;
+    background-color: #beb1a3;
+    transition-duration: 300ms;
+  }
+  
+  .low-header nav ul li a{
+    padding-inline: 20px;
+    transition-duration: 300ms;
+  }
+  
+  .low-header {
+    background-color: var(--dark-brown);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 2rem;
+    height: 50px;
+  }
+  
+  .low-header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .button {
+    color: #fff;
+    background-color: #7066B3;
+    padding-block: 0.5rem;
+    padding-inline: 6rem;
+    border: #7066B3 solid 2px;
+    border-radius: 5rem;
+    transition: 200ms ease-in-out;
+  }
+  
+  .button:hover {
+    color: #7066B3;
+    background-color: #fff;
+    transition: 200ms ease-in-out;
+  }
+  
+  .button2 {
+    color: #7066B3;
+    background-color: #ffffff;
+    padding-block: 0.5rem;
+    padding-inline: 6rem;
+    border: #ffffff solid 2px;
+    border-radius: 5rem;
+    transition: 200ms ease-in-out;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    background-color: #7066B3;
+    transition: 200ms ease-in-out;
+  }
+  
+  .first-section {
+    background-color: #7066B3;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: column;
-    padding: 10px;
   }
   
-  header .icon-header {
-    width: 30px;
-  }
-  
-  header figure {
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  header h1 {
-    font-size: 14px;
-    margin-left: 0;
-    margin-bottom: 5px;
-  }
-  
-  /* Estilo para o primeiro menu */
-  #menu1 {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  
-  nav#nav1 ul {
+  .first-section div:first-child {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
+    max-width: 500px;
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
-  nav#nav1 ul li {
-    margin-right: 0;
-    margin-bottom: 5px;
-    display: block;
-  }
-  
-  nav#nav1 ul li a {
-    padding: 5px 10px;
-    font-size: 12px;
-  }
-  
-  nav#nav1 ul li a:hover {
-    padding: 5px 10px;
-  }
-  
-  /* Estilo para o segundo menu */
-  #menu2 {
-    margin-left: 0;
-    margin-bottom: 10px;
-  }
-  
-  nav#nav2 ul {
+  .first-section div:first-child figure img {
+    max-width: 100%;
+    width: 150px;
     flex-direction: column;
-    align-items: flex-start;
   }
   
-  nav#nav2 ul li {
-    margin-left: 0;
-    margin-bottom: 5px;
-    display: block;
+  .first-section div:last-child {
+    width: 100%;
+    max-width: 500px;
   }
   
-  nav#nav2 ul li a {
-    padding: 5px 10px;
-    font-size: 12px;
+  .first-section div {
+    width: 100%;
+    flex: 1;
   }
   
-  nav#nav2 ul li a:hover {
-    padding: 5px 10px;
+  .first-section__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
-  /* Estilo para as seções */
-  #first-section,
-  #second-section,
-  #third-section,
-  #fourth-section {
-    padding: 10px;
-    margin-bottom: 10px;
+  .first-section__content img {
+    width: 100%;
+    max-width: 50rem;
   }
   
-  #first-section img {
-    width: 40px;
-    margin-left: 0;
-  }
-  
-  #first-section h1,
-  #second-section h1,
-  #third-section h1,
-  #fourth-section h1 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  #first-section p,
-  #second-section p,
-  #third-section p,
-  #fourth-section p {
-    font-size: 14px;
-  }
-  
-  /* Estilo para o rodapé */
-  footer nav ul {
+  .FS-contentBox {
+    display: flex;
     flex-direction: column;
-    margin-bottom: 0;
   }
   
-  footer nav ul li {
-    margin-right: 0;
-    margin-bottom: 5px;
-  }
+  .second-section {
   
-  footer nav ul li a {
-    padding: 5px 10px;
-    font-size: 12px;
   }
-  
-  footer nav ul li a:hover {
-    padding: 5px 10px;
-  }
-  
-  .footer-content {
-    margin-top: 5px;
-    font-size: 12px;
-  }
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    */
 }
+
