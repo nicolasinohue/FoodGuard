@@ -103,9 +103,6 @@
     flex-direction: row;
 }
 
-.first-section div:last-child   {
-    width: 500px;
-}
 
 .first-section div  {
     width: min-content;
@@ -114,17 +111,24 @@
 
 .first-section__content {
     display: flex;
-    flex: 1;
 }
 
-.first-section__content img {
-    width: 50rem;
+.first-section__content div:first-child {
+    margin-right: 50px;
 }
 
-.FS-contentBox  {
-    display: flex;
-    flex-direction: column;
+.first-section__content img{
+    max-width: 40rem;
 }
+
+.first-section__content2    {
+    padding-block: 0;
+}
+
+.first-section__content2 p    {
+    margin: 0;
+}
+
 
 .second-section {
 

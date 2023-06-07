@@ -1,12 +1,12 @@
-/*break points*/
-@import './css/styleSMD.css';
-@import './css/styleXSMD.css';
-
 /*Demais css's*/
 @import './css/style.css';
 @import './css/reset.css';
 @import './css/global.css';
 @import './css/colors.css';
+/*break points*/
+@import './css/styleSMD.css';
+@import './css/styleXSMD.css';
+
 
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');

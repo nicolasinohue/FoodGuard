@@ -26,35 +26,7 @@
   .pages nav ul li {
     padding-inline: 1rem;
   }
-  
-  .low-header nav ul li a:hover  {
-    color: #fff;
-    padding-block: 14.5px;
-    background-color: #beb1a3;
-    transition-duration: 300ms;
-  }
-  
-  .low-header nav ul li a{
-    padding-inline: 20px;
-    transition-duration: 300ms;
-  }
-  
-  .low-header {
-    background-color: var(--dark-brown);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-inline: 2rem;
-    height: 50px;
-  }
-  
-  .low-header nav ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+
   .button {
     color: #fff;
     background-color: #7066B3;
@@ -63,6 +35,10 @@
     border: #7066B3 solid 2px;
     border-radius: 5rem;
     transition: 200ms ease-in-out;
+  }
+
+  .low-header {
+    display: none;
   }
   
   .button:hover {
@@ -98,7 +74,7 @@
   
   .first-section div:first-child {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     max-width: 500px;
     font-size: 2rem;
@@ -114,7 +90,6 @@
   
   .first-section div:last-child {
     width: 100%;
-    max-width: 500px;
   }
   
   .first-section div {
@@ -137,10 +112,7 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .second-section {
-  
-  }
+
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    */
 }
 
